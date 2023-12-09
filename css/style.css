@@ -29,11 +29,6 @@ p {
     padding: 0px;
   }
 
-body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-  }
-
 li{
     list-style: none;
   }
@@ -41,4 +36,3 @@ li{
 a {
     text-decoration: none
   }
-  

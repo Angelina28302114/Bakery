@@ -10,12 +10,22 @@
   }
 
 .container{
-    width:1200px;
+    width: 1238px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* :root{
+    --menu-color: #FFF;
+    --btn-background: #B47B48;
+    --button-background: #C85312;
+    --item-background: #272727;
+    --iteem-background: #EBAD51;
+    --color-background: #202023;
+    --backg-background: rgba(242, 242, 242, 0.30);
+  } */
 
   body {
     font-family: 'Inter', sans-serif;
@@ -42,3 +52,374 @@ a {
   }
 
   /* header */
+/* .header {
+  width: 1431px;
+  height: 1023px;
+  background: #202023;
+} */
+
+
+
+.header-link {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color:  #B47B48;
+}
+   
+  /*bakery */
+
+.bakery-title {
+  color: #FFF;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  width: 561px;
+  height: 170px;
+}
+
+.bakery-text {
+  color: #FFF;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 570.253px;
+  height: 200px;
+}
+
+.bakery-btn {
+  border: #B47B48;
+  border-radius: 17px;
+  background: #B47B48;
+  width: 207px;
+  height: 57px;
+
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bakery-btn:hover,
+.bakery-btn:focus {
+  background: #705033;
+}
+
+.bakery-item {
+  background: #272727;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.186)80.32%, rgba(0, 0, 0, 0.00)80.32%); */
+  width: 310px; 
+  /* height: 225px; */
+}
+
+.bakery-item:hover,
+.bakery-item:focus {
+  background: #EBAD51;
+}
+
+.bakery-h2 {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.bakery-p {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bakery-btn-item {
+  background: #C85312;
+  border: #C85312;
+  width: 79px;
+  height: 34px;
+
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.bakery-btn-item:hover,
+.bakery-btn-item:focus {
+  background: #ffa575;
+}
+
+  /* menu */
+/* 
+.menu {
+  width: 1440px;
+  height: 775px;
+  background: #202023;
+} */
+
+.menu-title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.menu-h4 {
+  color: #FFF;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 92.195px;
+  height: 31.756px;
+}
+
+.menu-btn {
+  border-radius: 17px;
+  border: none;
+  background: #B47B48;
+  width: 160px;
+  height: 41px;
+  color: #FFF;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* .menu-box-one::before {
+  content: '';
+  width: 294px;
+  height: 184px;
+  background-image: url(../img/bread-menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+  /*quality-our-bekary  */
+/* .quality-our-bekary {
+  width: 1448px;
+  height: 852px;
+
+  opacity: 0.5;
+
+  background: #202023;
+} */
+
+
+.quality-our-bekary-title {
+  color: #FFF;
+  font-family: Italiana;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quality-our-bekary-p {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.quality-our-bekary-box {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+}
+
+  /* why */
+/* .why {
+  width: 2730px;
+  height: 580px;
+  background: #202023;
+} */
+
+
+.why-title {
+  width: 735px;
+  color: #D9D9D9;
+  font-family: Italiana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.why-p {
+  width: 188px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+  /* where */
+/* .where {
+  width: 1451px;
+  height: 704px;
+  background: #202023;
+} */
+
+
+.where-title {
+  width: 129px;
+  color: #FFF;
+  font-family: Italiana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.where-text {
+  width: 175px;
+  height: 44px;
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.where-p{
+  width: 207px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.where-p-one {
+  width: 225px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.where-text-two {
+  width: 109px;
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.where-p-two {
+  width: 199px;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+  /* footer */
+/* .footer {
+  width: 1446px;
+  height: 351px;
+  background: #202023;
+} */
+
+
+.footer-logo {
+  width: 322px;
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.footer-p {
+  width: 174px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-text-one{
+  width: 68px;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-p-one {
+  width: 142px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-text-two {
+  width: 119px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-p-two {
+  width: 127px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-text-tree {
+  width: 107px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-p-tree {
+  width: 118px;
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-p-p {
+  width: 275px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}

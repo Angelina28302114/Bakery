@@ -52,13 +52,10 @@ a {
   }
 
   /* header */
-/* .header {
-  width: 1431px;
-  height: 1023px;
+  
+ .header {
   background: #202023;
-} */
-
-
+}
 
 .header-link {
   color: #FFF;
@@ -74,6 +71,10 @@ a {
 }
    
   /*bakery */
+
+.bakery {
+  background: #202023;
+} 
 
 .bakery-title {
   color: #FFF;
@@ -161,11 +162,18 @@ a {
 }
 
   /* menu */
-/* 
+
 .menu {
   width: 1440px;
   height: 775px;
   background: #202023;
+} 
+
+/* .menu-box-one::before {
+  content: '';
+  width: 294px;
+  height: 184px;
+  background-image: url(../img/bread-menu.png);
 } */
 
 .menu-title {
@@ -199,25 +207,11 @@ a {
   line-height: normal;
 }
 
-/* .menu-box-one::before {
-  content: '';
-  width: 294px;
-  height: 184px;
-  background-image: url(../img/bread-menu.png);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
-
   /*quality-our-bekary  */
-/* .quality-our-bekary {
-  width: 1448px;
-  height: 852px;
 
-  opacity: 0.5;
-
+.quality-our-bekary {
   background: #202023;
-} */
-
+} 
 
 .quality-our-bekary-title {
   color: #FFF;
@@ -243,11 +237,10 @@ a {
 }
 
   /* why */
-/* .why {
-  width: 2730px;
-  height: 580px;
+
+.why {
   background: #202023;
-} */
+} 
 
 
 .why-title {
@@ -270,11 +263,10 @@ a {
 }
 
   /* where */
-/* .where {
-  width: 1451px;
-  height: 704px;
+
+.where {
   background: #202023;
-} */
+} 
 
 
 .where-title {
@@ -335,11 +327,12 @@ a {
 }
 
   /* footer */
-/* .footer {
+
+.footer {
   width: 1446px;
   height: 351px;
   background: #202023;
-} */
+} 
 
 
 .footer-logo {

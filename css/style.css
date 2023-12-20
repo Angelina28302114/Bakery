@@ -62,6 +62,7 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-top: 55px;
+  padding-bottom: 71px;
 }
 
 .header-link {
@@ -92,21 +93,21 @@ a {
   line-height: normal;
   width: 561px;
   height: 170px;
+  margin-bottom: 22px;
 }
 
 .bakery-text {
-   color: var(--menu-color);
+  color: var(--menu-color);
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 570.253px;
+  width: 570px;
   height: 200px;
 }
 
 .bakery-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
@@ -116,6 +117,8 @@ a {
   background: var(--btn-background);
   width: 207px;
   height: 57px;
+  margin-top: 33px;
+  margin-bottom: 125px;
 
   color: var(--menu-color);
   font-size: 24px;
@@ -130,10 +133,11 @@ a {
 }
 
 .bakery-item {
+  margin-right: 120px;
   background: var(--item-background);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.186)80.32%, rgba(0, 0, 0, 0.00)80.32%); */
   width: 310px; 
-  /* height: 225px; */
+  /* height: 225px;   */
 }
 
 .bakery-item:hover,
@@ -178,8 +182,8 @@ a {
   /* menu */
 
 .menu {
-  width: 1440px;
-  height: 775px;
+  /* width: 1440px; */
+  height: 775px; 
   background: var(--color-background);
 } 
 
@@ -196,6 +200,8 @@ a {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
+  margin-bottom: 18px;
+  padding-top: 21px;
 }
 
 .menu-h4 {
@@ -206,6 +212,7 @@ a {
   line-height: normal;
   width: 92.195px;
   height: 31.756px;
+  margin-bottom: 8.51px;
 }
 
 .menu-btn {

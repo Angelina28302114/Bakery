@@ -10,14 +10,14 @@
   }
 
 .container{
-    width: 1238px;
+    width: 1186px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
 
-/* :root{
+:root{
     --menu-color: #FFF;
     --btn-background: #B47B48;
     --button-background: #C85312;
@@ -25,7 +25,7 @@
     --iteem-background: #EBAD51;
     --color-background: #202023;
     --backg-background: rgba(242, 242, 242, 0.30);
-  }  */
+  }  
 
   body {
     font-family: 'Inter', sans-serif;
@@ -54,30 +54,37 @@ a {
   /* header */
   
  .header {
-  background: #202023;
+  background: var(--color-background);
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .header-link {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
+  margin-right: 30px;
 }
 
 .header-link:hover,
 .header-link:focus {
-  color:  #B47B48;
+  color: var(--btn-background);
 }
    
   /*bakery */
 
 .bakery {
-  background: #202023;
+  background: var(--color-background);
 } 
 
 .bakery-title {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 70px;
   font-style: normal;
   font-weight: 200;
@@ -87,7 +94,7 @@ a {
 }
 
 .bakery-text {
-  color: #FFF;
+   color: var(--menu-color);
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
@@ -96,14 +103,20 @@ a {
   height: 200px;
 }
 
+.bakery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .bakery-btn {
-  border: #B47B48;
+  border: var(--btn-background);
   border-radius: 17px;
-  background: #B47B48;
+  background: var(--btn-background);
   width: 207px;
   height: 57px;
 
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -116,7 +129,7 @@ a {
 }
 
 .bakery-item {
-  background: #272727;
+  background: var(--item-background);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.186)80.32%, rgba(0, 0, 0, 0.00)80.32%); */
   width: 310px; 
   /* height: 225px; */
@@ -128,7 +141,7 @@ a {
 }
 
 .bakery-h2 {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 200;
@@ -136,7 +149,7 @@ a {
 }
 
 .bakery-p {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -144,12 +157,12 @@ a {
 }
 
 .bakery-btn-item {
-  background: #C85312;
-  border: #C85312;
+  background: var(--button-background);
+  border: var(--button-background);
   width: 79px;
   height: 34px;
 
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
@@ -166,7 +179,7 @@ a {
 .menu {
   width: 1440px;
   height: 775px;
-  background: #202023;
+  background: var(--color-background);
 } 
 
 /* .menu-box-one::before {
@@ -177,7 +190,7 @@ a {
 } */
 
 .menu-title {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 64px;
   font-style: normal;
   font-weight: 100;
@@ -185,7 +198,7 @@ a {
 }
 
 .menu-h4 {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 25.92px;
   font-style: normal;
   font-weight: 800;
@@ -197,10 +210,10 @@ a {
 .menu-btn {
   border-radius: 17px;
   border: none;
-  background: #B47B48;
+  background: var(--btn-background);
   width: 160px;
   height: 41px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 25.92px;
   font-style: normal;
   font-weight: 800;
@@ -210,11 +223,11 @@ a {
   /*quality-our-bekary  */
 
 .quality-our-bekary {
-  background: #202023;
+  background: var(--color-background);
 } 
 
 .quality-our-bekary-title {
-  color: #FFF;
+  color: var(--menu-color);
   font-family: 'Italiana';
   font-size: 64px;
   font-style: normal;
@@ -223,7 +236,7 @@ a {
 }
 
 .quality-our-bekary-p {
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -239,13 +252,13 @@ a {
   /* why */
 
 .why {
-  background: #202023;
+  background: var(--color-background);
 } 
 
 
 .why-title {
   width: 735px;
-  color: #ffffff;
+  color: var(--menu-color);
   font-family: 'Italiana';
   font-size: 48px;
   font-style: normal;
@@ -255,7 +268,7 @@ a {
 
 .why-p {
   width: 188px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -265,13 +278,13 @@ a {
   /* where */
 
 .where {
-  background: #202023;
+  background: var(--color-background);
 } 
 
 
 .where-title {
   width: 129px;
-  color: #FFF;
+  color: var(--menu-color);
   font-family: 'Italiana';
   font-size: 48px;
   font-style: normal;
@@ -282,7 +295,7 @@ a {
 .where-text {
   width: 175px;
   height: 44px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -291,7 +304,7 @@ a {
 
 .where-p{
   width: 207px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -300,7 +313,7 @@ a {
 
 .where-p-one {
   width: 225px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -309,7 +322,7 @@ a {
 
 .where-text-two {
   width: 109px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -318,7 +331,7 @@ a {
 
 .where-p-two {
   width: 199px;
-  color: #FFF;
+  color: var(--menu-color);
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -331,13 +344,13 @@ a {
 .footer {
   width: 1446px;
   height: 351px;
-  background: #202023;
+  background: var(--color-background);
 } 
 
 
 .footer-logo {
   width: 322px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 40px;
   font-style: normal;
   font-weight: 200;
@@ -346,7 +359,7 @@ a {
 
 .footer-p {
   width: 174px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -355,7 +368,7 @@ a {
 
 .footer-text-one{
   width: 68px;
-  color: #FFF;
+  color: var(--menu-color);
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -365,7 +378,7 @@ a {
 
 .footer-p-one {
   width: 142px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -374,7 +387,7 @@ a {
 
 .footer-text-two {
   width: 119px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -383,7 +396,7 @@ a {
 
 .footer-p-two {
   width: 127px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -392,7 +405,7 @@ a {
 
 .footer-text-tree {
   width: 107px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -401,7 +414,7 @@ a {
 
 .footer-p-tree {
   width: 118px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -410,7 +423,7 @@ a {
 
 .footer-p-p {
   width: 275px;
-  color: #FFF;
+  color: var(--menu-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 100;

@@ -108,7 +108,7 @@ a {
 
 .bakery-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .bakery-btn {
@@ -130,19 +130,36 @@ a {
 .bakery-btn:hover,
 .bakery-btn:focus {
   background: #705033;
+  cursor: pointer;
 }
 
 .bakery-item {
   margin-right: 120px;
   background: var(--item-background);
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.186)80.32%, rgba(0, 0, 0, 0.00)80.32%); */
-  width: 310px; 
-  /* height: 225px;   */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.186)80.32%, rgba(0, 0, 0, 0.00)80.32%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 340px;
+  /* height: 235px; */
+  height: 245px;
+}   
+
+.box-one {
+  /* margin-top: 51px;
+  margin-left: 168px;
+  margin-right: 12px;
+  margin-bottom: 44px; */
+  padding-top: 51px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-bottom: 44px;
 }
 
 .bakery-item:hover,
 .bakery-item:focus {
   background: #EBAD51;
+  cursor: pointer;
 }
 
 .bakery-h2 {
@@ -151,6 +168,7 @@ a {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
+  margin-bottom: 13px;
 }
 
 .bakery-p {
@@ -159,6 +177,9 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 130px;
+  height: 19px;
+  margin-bottom: 35px;
 }
 
 .bakery-btn-item {
@@ -182,17 +203,26 @@ a {
   /* menu */
 
 .menu {
-  /* width: 1440px; */
-  height: 775px; 
+  padding-top: 21px;
+  padding-bottom: 73px;
   background: var(--color-background);
 } 
 
-/* .menu-box-one::before {
-  content: '';
-  width: 294px;
-  height: 184px;
+.menu-box-one {
   background-image: url(../img/bread-menu.png);
-} */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 294px;
+} 
+
+.menu-box-two {
+  background-image: url(../img/pngeggg.png), 
+                    url(../img/pngwingg.png),
+                    url(../img/klipartz.png);
+  background-position: right 70%, left, right 70% left 30% ;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 165px, 249px, 246px;
+}
 
 .menu-title {
   color: var(--menu-color);
@@ -350,8 +380,8 @@ a {
   /* footer */
 
 .footer {
-  width: 1446px;
-  height: 351px;
+  padding-top: 40px;
+  padding-bottom: 44px;
   background: var(--color-background);
 } 
 

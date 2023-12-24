@@ -219,9 +219,25 @@ a {
   background-image: url(../img/pngeggg.png), 
                     url(../img/pngwingg.png),
                     url(../img/klipartz.png);
-  background-position: right 70%, left, right 70% left 30% ;
+  background-position: right, left, right left ;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 165px, 249px, 246px;
+}
+
+.menu-box-tree {
+  background-image: url(../img/ppngwing.png),
+                    url(../img/pngwwing.png);
+  background-position: left, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size:  93px, 261px;
+}
+
+.menu-box-four {
+  background-image: url(../img/pngeegg.png),
+                    url(../img/pnngegg.png);
+  background-position: left, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size:  160px, 209px;
 }
 
 .menu-title {
@@ -258,6 +274,12 @@ a {
   line-height: normal;
 }
 
+.menu-btn:hover,
+.menu-btn:focus {
+  background: #705033;
+  cursor: pointer;
+}
+
   /*quality-our-bekary  */
 
 .quality-our-bekary {
@@ -271,6 +293,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 90px;
 }
 
 .quality-our-bekary-p {
@@ -285,12 +308,17 @@ a {
   background-color: rgb(96 96 96);
   width: 291px;
   height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
 }
 
   /* why */
 
 .why {
   background: var(--color-background);
+  background-image: linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00)),90deg, #000 8.49%, rgba(3, 3, 3, 0.00), url(../img/backgroundtwo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 } 
 
 
@@ -302,6 +330,19 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 55px;
+  padding-bottom: 132px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.why-item {
+  margin-right: 206px;
+}
+
+.why-list {
+  display: flex;
+  align-items: center;
 }
 
 .why-p {
@@ -311,6 +352,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 10px;
 }
 
   /* where */
@@ -328,6 +370,8 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 66px;
+  margin-bottom: 44px;
 }
 
 .where-text {
@@ -338,6 +382,9 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 86px;
+  margin-top: 180px;
+  margin-bottom: 49px;
 }
 
 .where-p{
@@ -347,6 +394,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 85px;
 }
 
 .where-p-one {
@@ -356,6 +404,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 30px;
 }
 
 .where-text-two {
@@ -365,6 +414,8 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 185px;
+  margin-bottom: 40px;
 }
 
 .where-p-two {
@@ -393,6 +444,9 @@ a {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
+  margin-top: 62px;
+  margin-bottom: 16px;
+  margin-right: 77px;
 }
 
 .footer-p {
@@ -402,7 +456,16 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-right: 207px;
 }
+
+/* .footer-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 154px;
+  margin-right: 200px;
+} */
 
 .footer-text-one{
   width: 68px;
@@ -412,6 +475,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 41px;
 }
 
 .footer-p-one {
@@ -421,6 +485,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .footer-text-two {
@@ -430,6 +495,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 41px;
 }
 
 .footer-p-two {
@@ -439,6 +505,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .footer-text-tree {
@@ -448,6 +515,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 41px;
 }
 
 .footer-p-tree {
@@ -457,6 +525,7 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .footer-p-p {
@@ -466,4 +535,8 @@ a {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
+  margin-left: 580px;
+  margin-right: 590px;
+  margin-bottom: 44px;
+  margin-top: 86px;
 }

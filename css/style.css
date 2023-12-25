@@ -83,6 +83,9 @@ a {
 
 .bakery {
   background: var(--color-background);
+  background-image: url(../img/backgroundone.png);
+  background-position: center;
+  background-repeat: no-repeat;
 } 
 
 .bakery-title {

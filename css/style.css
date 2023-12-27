@@ -216,6 +216,8 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 294px;
+  width: 294px;
+  height: 184.39px;
 } 
 
 .menu-box-two {
@@ -225,6 +227,12 @@ a {
   background-position: right, left, right left ;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 165px, 249px, 246px;
+  /* width: 165px;
+  height: 128px;
+  width: 246px;
+  height: 171px; */
+  width: 246px;
+  height: 171px;
 }
 
 .menu-box-tree {
@@ -233,6 +241,10 @@ a {
   background-position: left, center;
   background-repeat: no-repeat, no-repeat;
   background-size:  93px, 261px;
+  width: 93.193px;
+  height: 116.687px;
+  width: 261.566px;
+  height: 260px; 
 }
 
 .menu-box-four {
@@ -241,7 +253,11 @@ a {
   background-position: left, center;
   background-repeat: no-repeat, no-repeat;
   background-size:  160px, 209px;
-}
+  width: 93.193px;
+  height: 116.687px;
+  width: 261.566px;
+  height: 260px;
+ }
 
 .menu-title {
   color: var(--menu-color);

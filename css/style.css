@@ -220,21 +220,20 @@ a {
   flex-wrap: wrap;
   display: flex;
   margin-left: 190px;
-
 }
 
 .menu-list > .menu-item {
   flex-basis: calc((100% - 108px) / 2);
-  border: 1px solid #FFF;
-  height: 229px
 }
 
 .menu-box-five {
-  padding-top: 14px;
+  /* padding-top: 14px;
   padding-right: 14px;
   padding-left: 20px;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; */
+  border: 1px solid #FFF;
+  width: 328px;
+} 
 
 .menu-box-one {
   background-image: url(../img/bread-menu.png);
@@ -243,6 +242,9 @@ a {
   background-size: 294px;
   width: 294px;
   height: 184.39px;
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-left: 20px;
 } 
 
 .menu-box-two {
@@ -258,6 +260,8 @@ a {
   height: 171px; */
   width: 246px;
   height: 171px;
+  margin-left: 40px;
+  margin-right: 26px;
 }
 
 .menu-box-tree {
@@ -270,6 +274,7 @@ a {
   height: 116.687px;
   width: 261.566px;
   height: 260px; 
+  margin-left: 47px;
 }
 
 .menu-box-four {
@@ -302,6 +307,8 @@ a {
   font-weight: 800;
   line-height: normal;
   margin-bottom: 8.51px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-btn {
@@ -428,6 +435,10 @@ a {
   background: var(--color-background);
 } 
 
+.where-box-two {
+  margin-left: 132px;
+}
+
 .where-title {
   width: 129px;
   color: var(--menu-color);
@@ -491,12 +502,9 @@ a {
 }
 
 .box-where {
-  /* display: flex; */
-  /* justify-content: space-around; */
-
   display: flex;
   justify-content: space-between;
-  gap: 132px;
+  /* gap: 132px; */
 }
 
 /* .where-div {
@@ -628,4 +636,9 @@ a {
 
 .footer-div {
   margin-left: 160px;
+}
+
+.footer-box-div {
+  display: flex;
+  justify-content: center;
 }

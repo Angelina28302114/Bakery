@@ -322,6 +322,8 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-top: 9px;
+  margin-left: 80px;
 }
 
 .menu-btn:hover,

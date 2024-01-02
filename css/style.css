@@ -251,7 +251,7 @@ a {
   background-image: url(../img/pngeggg.png), 
                     url(../img/pngwingg.png),
                     url(../img/klipartz.png);
-                    background-position: bottom 20px left 180px, bottom 0px right 50px, top -10px right 10px;
+  background-position:bottom 20px left 90px, bottom 0px right 20px, top -70px left 50px;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 165px, 249px, 246px;
   /* width: 165px;
@@ -262,12 +262,13 @@ a {
   height: 171px;
   margin-left: 40px;
   margin-right: 26px;
+  margin-top: 13px;
 }
 
 .menu-box-tree {
   background-image: url(../img/ppngwing.png),
                     url(../img/pngwwing.png);
-  background-position: left, center;
+  background-position: left 10px bottom 35px, center;
   background-repeat: no-repeat, no-repeat;
   background-size:  93px, 261px;
   width: 93.193px;
@@ -280,13 +281,14 @@ a {
 .menu-box-four {
   background-image: url(../img/pngeegg.png),
                     url(../img/pnngegg.png);
-  background-position: left, center;
+  background-position: left bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-size:  160px, 209px;
   width: 93.193px;
   height: 116.687px;
   width: 261.566px;
   height: 260px;
+  margin-left: 47px;
  }
 
 .menu-title {

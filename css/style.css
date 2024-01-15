@@ -351,6 +351,7 @@ a {
 
 .quality-our-bekary {
   background: var(--color-background);
+  position: relative;
 } 
 
 .quality-our-bekary-title {
@@ -365,11 +366,13 @@ a {
   /* display: flex;
   justify-content: flex-end;  */
 
-  margin-left: 400px 
+  margin-left: 400px;
+  top: -70px;
+  position: absolute;
 }
 
 .quality-our-bekary-text {
-  background-image: url(../img/quality-our-bekary-text.png); */
+  background-image: url(../img/quality-our-bekary-text.png);
   background-size: 593px;
 }
 

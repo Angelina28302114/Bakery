@@ -362,8 +362,10 @@ a {
   line-height: normal;
   padding-top: 90px;
   /* margin-bottom: 84px; */
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end;  */
+
+  margin-left: 400px 
 }
 
 .quality-our-bekary-text {

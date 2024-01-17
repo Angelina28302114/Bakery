@@ -366,7 +366,7 @@ a {
   /* display: flex;
   justify-content: flex-end;  */
 
-  margin-left: 400px;
+  margin-left: 466px;
   top: -70px;
   position: absolute;
 }
@@ -378,15 +378,18 @@ a {
 
 .quality-our-bekary-item-one {
   margin-bottom: 306px;
+  margin-top: 50px;
+  margin-right: 32px;
 }
 
 .quality-our-bekary-item-two {
-  margin-top: 84px;
+  margin-top: 150px;
   margin-bottom: 121px;
+  margin-right: 32px;
 }
 
 .quality-our-bekary-item-tree {
-  margin-top: 123px;
+  margin-top: 190px;
   margin-bottom: 47px;
 }
 
@@ -401,7 +404,8 @@ a {
 .quality-our-bekary-list {
   display: flex;
   justify-content: center;
-  gap: 94px;
+  /* gap: 94px; */
+  background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(33 30 30 / 40%), rgb(43 39 39 / 40%),rgba(47, 48, 58, 0.40));
 }
 
 .quality-our-bekary-box {

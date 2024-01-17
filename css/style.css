@@ -352,6 +352,9 @@ a {
 .quality-our-bekary {
   background: var(--color-background);
   position: relative;
+  /* background-image: linear-gradient(rgba(47, 48, 58, 0.40)); */
+  background-image: url(../img/quality-our-bekary-text.png);
+  background-size: 593px;
 } 
 
 .quality-our-bekary-title {
@@ -372,9 +375,11 @@ a {
 }
 
 .quality-our-bekary-text {
-  background-image: url(../img/quality-our-bekary-text.png);
-  background-size: 593px;
-}
+  /* background-image: url(../img/quality-our-bekary-text.png);
+  background-size: 593px; */
+
+  background-image: linear-gradient(45deg, #000000ba,#00000082, transparent);
+}  
 
 .quality-our-bekary-item-one {
   margin-bottom: 306px;
@@ -385,7 +390,7 @@ a {
 .quality-our-bekary-item-two {
   margin-top: 150px;
   margin-bottom: 121px;
-  margin-right: 32px;
+  margin-right: 25px;
 }
 
 .quality-our-bekary-item-tree {
@@ -405,15 +410,34 @@ a {
   display: flex;
   justify-content: center;
   /* gap: 94px; */
-  /* background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(33 30 30 / 40%), rgb(43 39 39 / 40%),rgba(47, 48, 58, 0.40)); */
+  /* background-image: linear-gradient(45deg, #000000ba,#00000082, transparent); */
 }
 
-.quality-our-bekary-box {
+.quality-our-bekary-box-one {
   background-color: rgb(96 96 96);
   width: 291px;
   height: 197px;
   padding-top: 26px;
   padding-left: 10px;
+  margin-left: 30px;
+}
+
+.quality-our-bekary-box-two {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
+}
+
+.quality-our-bekary-box-tree {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
+  margin-left: 25px;
+  margin-top: -10px;
 }
 
   /* why */

@@ -108,7 +108,15 @@ a {
   font-weight: 300;
   line-height: normal;
   width: 570px;
-  height: 200px;
+}
+
+.bakery-text-two {
+  color: var(--menu-color);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 570px;
 }
 
 .bakery-list {

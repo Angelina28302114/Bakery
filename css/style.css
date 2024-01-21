@@ -329,7 +329,8 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-bottom: 8.51px;
+  /* margin-bottom: 8.51px; */
+  margin-bottom: 1px;
   display: flex;
   justify-content: center;
 }

@@ -516,6 +516,18 @@ a {
   margin-bottom: 85px;
 }
 
+.where-address {
+  margin-bottom: 65px;
+}
+
+.where-address-p {
+  color: var(--menu-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .where-p-one {
   width: 225px;
   color: var(--menu-color);

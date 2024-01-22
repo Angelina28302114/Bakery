@@ -226,7 +226,7 @@ a {
 }
 
 .menu-list > .menu-item {
-  flex-basis: calc((100% - 108px) / 2);
+  flex-basis: calc((100% - 108px) / 2); 
 
   margin-bottom: 7px;
 }

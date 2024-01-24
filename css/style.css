@@ -221,14 +221,19 @@ a {
 } 
 
 .menu-list {
+  margin-top: -7px;
+  margin-left: -198px;
+  justify-content: center;
+  padding-right: 0px;
   flex-wrap: wrap;
   display: flex;
 }
 
 .menu-list > .menu-item {
-  /* flex-basis: calc((100% - 108px) / 2);  */
-  margin-bottom: 7px;
-  margin-right: 198px;
+  max-width: 328px;
+  flex-basis: calc((100% - 198px * 2) / 2);
+  margin-top: 7px;
+  margin-left: 198px;
 }
 
 .menu-box-five {
@@ -297,14 +302,10 @@ a {
   line-height: normal;
   margin-bottom: 18px;
   padding-top: 21px;
-
-  display: flex;
-  justify-content: center;
 }
 
 .box-menu {
   display: flex;
-  /* margin-left: 200px; */
 }
 
 .menu-h4 {
@@ -313,7 +314,6 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  /* margin-bottom: 8.51px; */
   margin-bottom: 1px;
   display: flex;
   justify-content: center;

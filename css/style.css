@@ -345,7 +345,6 @@ a {
 .quality-our-bekary {
   background: var(--color-background);
   position: relative;
-  /* background-image: linear-gradient(rgba(47, 48, 58, 0.40)); */
   background-image: url(../img/quality-our-bekary-text.png);
   background-size: 593px;
 } 
@@ -364,9 +363,6 @@ a {
 }
 
 .quality-our-bekary-text {
-  /* background-image: url(../img/quality-our-bekary-text.png);
-  background-size: 593px; */
-
   background-image: linear-gradient(45deg, #000000ba,#00000082, transparent);
 }  
 
@@ -399,8 +395,6 @@ a {
 .quality-our-bekary-list {
   display: flex;
   justify-content: center;
-  /* gap: 94px; */
-  /* background-image: linear-gradient(45deg, #000000ba,#00000082, transparent); */
 }
 
 .quality-our-bekary-box-one {
@@ -528,6 +522,12 @@ a {
   line-height: normal;
 }
 
+.where-address-p:hover,
+.where-address-p:focus {
+  color: #705033;
+  cursor: pointer;
+}
+
 .where-p-one {
   width: 225px;
   color: var(--menu-color);
@@ -538,6 +538,12 @@ a {
   margin-bottom: 30px;
 }
 
+.where-p-one:hover,
+.where-p-one:focus {
+  color: #705033;
+  cursor: pointer;
+}
+
 .where-text-two {
   width: 109px;
   color: var(--menu-color);
@@ -546,6 +552,12 @@ a {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 40px;
+}
+
+.where-p-two:hover,
+.where-p-two:focus {
+  color: #705033;
+  cursor: pointer;
 }
 
 .where-p-two {

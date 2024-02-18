@@ -90,6 +90,15 @@ a {
   background-repeat: no-repeat;
 } 
 
+.bakery-box-one {
+  fill: var(--menu-color);
+  height: 19px;
+  margin-top: 172px;
+  border: 2px solid #fff;
+  width: 20px;
+  border-radius: 10px;
+}
+
 .bakery-title {
   color: var(--menu-color);
   font-size: 70px;
@@ -207,6 +216,21 @@ a {
 .bakery-btn-item:hover,
 .bakery-btn-item:focus {
   background: #ffa575;
+}
+
+.bakery-box-two {
+  position: absolute;
+  margin-left: 200px;
+}
+
+.bakery-box-three {
+  position: absolute;
+  margin-left: 140px;
+}
+
+.bakery-box-four {
+  position: absolute;
+  margin-left: 180px;
 }
 
   /* menu */

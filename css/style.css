@@ -746,12 +746,11 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
   padding: 40px;
   background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  width: 990px;
+  height: 669px;
 }
 
 .modal-title {
@@ -760,4 +759,29 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--menu-color);
+}
+
+.modal-box {
+  display: flex;
+  position: relative;
+}
+
+.modal-box-one {
+
+}
+
+.modal-box-two {
+  width: 476px;
+  height: 448px;
+  position: absolute;
+  right: -40px;
+  margin-top: 105px;
+}
+
+.modal-form {
+
+}
+
+.form-label {
+  
 }

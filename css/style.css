@@ -731,6 +731,7 @@ a {
   /* background-color: rgba(0, 0, 0, 0.5); */
   backdrop-filter: blur(10px);
   opacity: 1;
+  position: absolute;
 }
 
 .backdrop.is-hidden {
@@ -828,4 +829,17 @@ a {
 .bakery-btn:focus {
   background: #705033;
   cursor: pointer;
+}
+
+.modal-box-box {
+}
+
+.modal-box-one {
+}
+
+.modal-box-two {
+  position: relative;
+  bottom: 650px;
+  left: 427px;
+  margin-top: 100px;
 }

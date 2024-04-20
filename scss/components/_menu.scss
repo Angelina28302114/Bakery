@@ -1,0 +1,125 @@
+.menu {
+    padding-top: 21px;
+    padding-bottom: 73px;
+    background: var(--color-background);
+  } 
+  
+  .menu-list {
+    margin-top: -7px;
+    margin-left: -198px;
+    justify-content: center;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  .menu-list > .menu-item {
+    max-width: 328px;
+    flex-basis: calc((100% - 198px * 2) / 2);
+    margin-top: 7px;
+    margin-left: 198px;
+  }
+  
+  .menu-box-five {
+    border: 1px solid #FFF;
+    width: 328px;
+  } 
+  
+  .menu-box-one {
+    background-image: url(../img/bread-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 294px;
+    width: 294px;
+    height: 184.39px;
+    margin-top: 14px;
+    margin-right: 14px;
+    margin-left: 20px;
+  } 
+  
+  .menu-box-two {
+    background-image: url(../img/pngeggg.png), 
+                      url(../img/pngwingg.png),
+                      url(../img/klipartz.png);
+    background-position:bottom 20px left 90px, bottom 0px right 20px, top -20px left 120px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 165px, 249px, 146px;
+    width: 246px;
+    height: 171px;
+    margin-left: 40px;
+    margin-right: 26px;
+    margin-top: 13px;
+  }
+  
+  .menu-box-tree {
+    background-image: url(../img/ppngwing.png),
+                      url(../img/pngwwing.png);
+    background-position: left 10px bottom 35px, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size:  93px, 261px;
+    width: 93.193px;
+    height: 116.687px;
+    width: 261.566px;
+    height: 260px; 
+    margin-left: 47px;
+  }
+  
+  .menu-box-four {
+    background-image: url(../img/pngeegg.png),
+                      url(../img/pnngegg.png);
+    background-position: left bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size:  160px, 209px;
+    width: 93.193px;
+    height: 116.687px;
+    width: 261.566px;
+    height: 260px;
+    margin-left: 47px;
+   }
+  
+  .menu-title {
+    text-align: center;
+    color: var(--menu-color);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 18px;
+    padding-top: 21px;
+  }
+  
+  .box-menu {
+    display: flex;
+  }
+  
+  .menu-h4 {
+    color: var(--menu-color);
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-btn {
+    border-radius: 17px;
+    border: none;
+    background: var(--btn-background);
+    width: 160px;
+    height: 41px;
+    color: var(--menu-color);
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 9px;
+    margin-left: 80px;
+  }
+  
+  .menu-btn:hover,
+  .menu-btn:focus {
+    background: #705033;
+    cursor: pointer;
+  }

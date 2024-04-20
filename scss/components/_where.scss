@@ -1,0 +1,104 @@
+.where {
+    background: var(--color-background);
+  } 
+  
+  .where-box-two {
+    margin-left: 132px;
+  }
+  
+  .where-title {
+    width: 129px;
+    color: var(--menu-color);
+    font-family: 'Italiana';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 66px;
+    margin-bottom: 44px;
+  }
+  
+  .where-text {
+    width: 175px;
+    height: 44px;
+    color: var(--menu-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 49px;
+  }
+  
+  .where-p{
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 85px;
+  }
+  
+  .where-address {
+    margin-bottom: 65px;
+  }
+  
+  .where-address-p {
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .where-address-p:hover,
+  .where-address-p:focus {
+    color: #705033;
+    cursor: pointer;
+  }
+  
+  .where-p-one {
+    width: 225px;
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  
+  .where-p-one:hover,
+  .where-p-one:focus {
+    color: #705033;
+    cursor: pointer;
+  }
+  
+  .where-text-two {
+    width: 109px;
+    color: var(--menu-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+  
+  .where-p-two:hover,
+  .where-p-two:focus {
+    color: #705033;
+    cursor: pointer;
+  }
+  
+  .where-p-two {
+    width: 199px;
+    color: var(--menu-color);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+  
+  .box-where {
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,41 @@
+.why {
+    background: var(--color-background);
+    background-image: url(../img/backgroundtree.png) ,url(../img/backgroundtwo.jpg);
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    padding-bottom: 56px;
+  } 
+  
+  
+  .why-title {
+    width: 735px;
+    color: var(--menu-color);
+    font-family: 'Italiana';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 55px;
+    padding-bottom: 132px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .why-item {
+    margin-right: 206px;
+  }
+  
+  .why-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .why-p {
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    width: 251px;
+  }

@@ -1,0 +1,150 @@
+.bakery {
+    padding-top: 155px;
+    background: var(--color-background);
+    background-image: url(../img/backgroundone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+  
+  .bakery-box-one {
+    fill: var(--menu-color);
+    height: 19px;
+    margin-top: 172px;
+    border: 2px solid #fff;
+    width: 20px;
+    border-radius: 10px;
+  }
+  
+  .bakery-title {
+    color: var(--menu-color);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: 561px;
+    height: 170px;
+    margin-bottom: 22px;
+  }
+  
+  .bakery-text {
+    color: var(--menu-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 570px;
+  }
+  
+  .bakery-text-two {
+    color: var(--menu-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 570px;
+  }
+  
+  .bakery-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bakery-btn {
+    border: var(--btn-background);
+    border-radius: 17px;
+    background: var(--btn-background);
+    width: 207px;
+    height: 57px;
+    margin-top: 33px;
+    margin-bottom: 125px;
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .bakery-btn:hover,
+  .bakery-btn:focus {
+    background: #705033;
+    cursor: pointer;
+  }
+  
+  .bakery-item {
+    margin-right: 120px;
+    background: var(--item-background);
+    background-image: url(../img/rectangle.png);
+    background-size: 340px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 340px;
+    height: 245px;
+    margin-bottom: 36px;
+  }   
+  
+  .box-one {
+    padding-top: 51px;
+    padding-left: 8px;
+    padding-right: 12px;
+    padding-bottom: 44px;
+  }
+  
+  .bakery-item:hover,
+  .bakery-item:focus {
+    background: #EBAD51;
+    cursor: pointer;
+  }
+  
+  .bakery-h2 {
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 13px;
+  }
+  
+  .bakery-p {
+    color: var(--menu-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 130px;
+    height: 19px;
+    margin-bottom: 35px;
+  }
+  
+  .bakery-btn-item {
+    background: var(--button-background);
+    border: var(--button-background);
+    width: 79px;
+    height: 34px;
+    color: var(--menu-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .bakery-btn-item:hover,
+  .bakery-btn-item:focus {
+    background: #ffa575;
+  }
+  
+  .bakery-box-two {
+    position: absolute;
+    margin-left: 200px;
+  }
+  
+  .bakery-box-three {
+    position: absolute;
+    margin-left: 140px;
+  }
+  
+  .bakery-box-four {
+    position: absolute;
+    margin-left: 180px;
+  }

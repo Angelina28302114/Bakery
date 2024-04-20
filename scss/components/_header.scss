@@ -1,0 +1,26 @@
+.header {
+    background: var(--color-background);
+  }
+  
+  .header-list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 55px;
+    padding-bottom: 71px;
+  }
+  
+  .header-link {
+    color: var(--menu-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding-right: 30px;
+  }
+  
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--btn-background);
+  }

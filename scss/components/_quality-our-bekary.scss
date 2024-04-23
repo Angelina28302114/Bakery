@@ -1,12 +1,12 @@
 .quality-our-bekary {
-    background: var(--color-background);
+    background: $text-background-color;
     position: relative;
     background-image: url(../img/quality-our-bekary-text.png);
     background-size: 593px;
   } 
   
   .quality-our-bekary-title {
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: 'Italiana';
     font-size: 64px;
     font-style: normal;
@@ -41,7 +41,7 @@
   }
   
   .quality-our-bekary-p {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;

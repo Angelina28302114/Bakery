@@ -1,12 +1,12 @@
 .footer {
     padding-top: 90px;
     padding-bottom: 44px;
-    background: var(--color-background);
+    background: $text-background-color;
   } 
   
   
   .footer-logo {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 40px;
     font-style: normal;
     font-weight: 200;
@@ -17,7 +17,7 @@
   
   .footer-p {
     width: 174px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
@@ -34,7 +34,7 @@
   
   .footer-text-one{
     width: 68px;
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-size: 24px;
     font-style: normal;
@@ -45,7 +45,7 @@
   
   .footer-p-one {
     width: 142px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -55,7 +55,7 @@
   
   .footer-text-two {
     width: 119px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -65,7 +65,7 @@
   
   .footer-p-two {
     width: 127px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -75,7 +75,7 @@
   
   .footer-text-tree {
     width: 107px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -85,7 +85,7 @@
   
   .footer-p-tree {
     width: 118px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -94,7 +94,7 @@
   }
   
   .footer-p-p {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 20px;
     font-style: normal;
     font-weight: 100;

@@ -28,7 +28,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
-    background-color: var(--menu-color);
+    background-color: $menu-color;
     border-radius: 50px;
     width: 990px;
     height: 669px;
@@ -40,7 +40,7 @@
   .modal-title {
     font-weight: 200;
     font-size: 48px;
-    color: var(--color-background);
+    color: $text-background-color;
     width: 385px;
     margin-bottom: 40px;
   }
@@ -61,7 +61,7 @@
   .form-input::placeholder {
     font-weight: 200;
     font-size: 24px;
-    color: var(--color-background);
+    color: $text-background-color;
   }
   
   .form-input-two {
@@ -79,17 +79,17 @@
   .form-input-two::placeholder {
     font-weight: 200;
     font-size: 24px;
-    color: var(--color-background);
+    color: $text-background-color;
   }
   
   .bakery-btn {
     border-radius: 17px;
-    background: var(--btn-background);
+    background: $btn-background-color;
     width: 207px;
     height: 57px;
     margin-top: 33px;
     margin-bottom: 125px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;

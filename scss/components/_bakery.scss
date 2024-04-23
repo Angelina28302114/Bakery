@@ -1,13 +1,13 @@
 .bakery {
     padding-top: 155px;
-    background: var(--color-background);
+    background: $text-background-color;
     background-image: url(../img/backgroundone.png);
     background-position: center;
     background-repeat: no-repeat;
   } 
   
   .bakery-box-one {
-    fill: var(--menu-color);
+    fill: $menu-color;
     height: 19px;
     margin-top: 172px;
     border: 2px solid #fff;
@@ -16,7 +16,7 @@
   }
   
   .bakery-title {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 70px;
     font-style: normal;
     font-weight: 200;
@@ -27,7 +27,7 @@
   }
   
   .bakery-text {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
@@ -36,7 +36,7 @@
   }
   
   .bakery-text-two {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
@@ -50,14 +50,14 @@
   }
   
   .bakery-btn {
-    border: var(--btn-background);
+    border: $btn-background-color;
     border-radius: 17px;
-    background: var(--btn-background);
+    background: $btn-background-color;
     width: 207px;
     height: 57px;
     margin-top: 33px;
     margin-bottom: 125px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -72,7 +72,7 @@
   
   .bakery-item {
     margin-right: 120px;
-    background: var(--item-background);
+    background: $item-background-color;
     background-image: url(../img/rectangle.png);
     background-size: 340px;
     background-repeat: no-repeat;
@@ -93,12 +93,12 @@
   
   .bakery-item:hover,
   .bakery-item:focus {
-    background: #EBAD51;
+    background: $iteem-background-color;
     cursor: pointer;
   }
   
   .bakery-h2 {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 200;
@@ -107,7 +107,7 @@
   }
   
   .bakery-p {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -118,11 +118,11 @@
   }
   
   .bakery-btn-item {
-    background: var(--button-background);
-    border: var(--button-background);
+    background-color: $button-background-color;
+    border: $button-background-color;
     width: 79px;
     height: 34px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 16px;
     font-style: normal;
     font-weight: 900;

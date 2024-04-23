@@ -1,5 +1,5 @@
 .why {
-    background: var(--color-background);
+    background: $text-background-color;
     background-image: url(../img/backgroundtree.png) ,url(../img/backgroundtwo.jpg);
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
@@ -9,7 +9,7 @@
   
   .why-title {
     width: 735px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: 'Italiana';
     font-size: 48px;
     font-style: normal;
@@ -31,7 +31,7 @@
   }
   
   .why-p {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;

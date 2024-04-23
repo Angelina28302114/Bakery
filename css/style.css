@@ -1,13 +1,3 @@
-:root {
-  --menu-color: #FFF;
-  --btn-background: #B47B48;
-  --button-background: #C85312;
-  --item-background: #272727;
-  --iteem-background: #EBAD51;
-  --color-background: #202023;
-  --backg-background: rgba(242, 242, 242, 0.30);
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -52,7 +42,7 @@ a {
 }
 
 .header {
-  background: var(--color-background);
+  background-color: #202023;
 }
 
 .header-list {
@@ -65,7 +55,7 @@ a {
 }
 
 .header-link {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 200;
@@ -75,19 +65,19 @@ a {
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--btn-background);
+  color: #B47B48;
 }
 
 .bakery {
   padding-top: 155px;
-  background: var(--color-background);
+  background: #202023;
   background-image: url(../img/backgroundone.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bakery-box-one {
-  fill: var(--menu-color);
+  fill: #FFF;
   height: 19px;
   margin-top: 172px;
   border: 2px solid #fff;
@@ -96,7 +86,7 @@ a {
 }
 
 .bakery-title {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 70px;
   font-style: normal;
   font-weight: 200;
@@ -107,7 +97,7 @@ a {
 }
 
 .bakery-text {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
@@ -116,7 +106,7 @@ a {
 }
 
 .bakery-text-two {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 21px;
   font-style: normal;
   font-weight: 300;
@@ -130,14 +120,14 @@ a {
 }
 
 .bakery-btn {
-  border: var(--btn-background);
+  border: #B47B48;
   border-radius: 17px;
-  background: var(--btn-background);
+  background: #B47B48;
   width: 207px;
   height: 57px;
   margin-top: 33px;
   margin-bottom: 125px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -152,7 +142,7 @@ a {
 
 .bakery-item {
   margin-right: 120px;
-  background: var(--item-background);
+  background: #272727;
   background-image: url(../img/rectangle.png);
   background-size: 340px;
   background-repeat: no-repeat;
@@ -178,7 +168,7 @@ a {
 }
 
 .bakery-h2 {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 200;
@@ -187,7 +177,7 @@ a {
 }
 
 .bakery-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -198,11 +188,11 @@ a {
 }
 
 .bakery-btn-item {
-  background: var(--button-background);
-  border: var(--button-background);
+  background-color: #C85312;
+  border: #C85312;
   width: 79px;
   height: 34px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
@@ -232,7 +222,7 @@ a {
 .menu {
   padding-top: 21px;
   padding-bottom: 73px;
-  background: var(--color-background);
+  background: #202023;
 }
 
 .menu-list {
@@ -306,7 +296,7 @@ a {
 
 .menu-title {
   text-align: center;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 64px;
   font-style: normal;
   font-weight: 100;
@@ -320,7 +310,7 @@ a {
 }
 
 .menu-h4 {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 25.92px;
   font-style: normal;
   font-weight: 800;
@@ -333,10 +323,10 @@ a {
 .menu-btn {
   border-radius: 17px;
   border: none;
-  background: var(--btn-background);
+  background: #B47B48;
   width: 160px;
   height: 41px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 25.92px;
   font-style: normal;
   font-weight: 800;
@@ -352,14 +342,14 @@ a {
 }
 
 .quality-our-bekary {
-  background: var(--color-background);
+  background: #202023;
   position: relative;
   background-image: url(../img/quality-our-bekary-text.png);
   background-size: 593px;
 }
 
 .quality-our-bekary-title {
-  color: var(--menu-color);
+  color: #FFF;
   font-family: "Italiana";
   font-size: 64px;
   font-style: normal;
@@ -394,7 +384,7 @@ a {
 }
 
 .quality-our-bekary-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -434,7 +424,7 @@ a {
 }
 
 .why {
-  background: var(--color-background);
+  background: #202023;
   background-image: url(../img/backgroundtree.png), url(../img/backgroundtwo.jpg);
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
@@ -443,7 +433,7 @@ a {
 
 .why-title {
   width: 735px;
-  color: var(--menu-color);
+  color: #FFF;
   font-family: "Italiana";
   font-size: 48px;
   font-style: normal;
@@ -465,7 +455,7 @@ a {
 }
 
 .why-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -475,7 +465,7 @@ a {
 }
 
 .where {
-  background: var(--color-background);
+  background-color: #202023;
 }
 
 .where-box-two {
@@ -484,7 +474,7 @@ a {
 
 .where-title {
   width: 129px;
-  color: var(--menu-color);
+  color: #FFF;
   font-family: "Italiana";
   font-size: 48px;
   font-style: normal;
@@ -497,7 +487,7 @@ a {
 .where-text {
   width: 175px;
   height: 44px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -506,7 +496,7 @@ a {
 }
 
 .where-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -519,7 +509,7 @@ a {
 }
 
 .where-address-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -534,7 +524,7 @@ a {
 
 .where-p-one {
   width: 225px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -550,7 +540,7 @@ a {
 
 .where-text-two {
   width: 109px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -566,7 +556,7 @@ a {
 
 .where-p-two {
   width: 199px;
-  color: var(--menu-color);
+  color: #FFF;
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -582,11 +572,11 @@ a {
 .footer {
   padding-top: 90px;
   padding-bottom: 44px;
-  background: var(--color-background);
+  background: #202023;
 }
 
 .footer-logo {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 40px;
   font-style: normal;
   font-weight: 200;
@@ -597,7 +587,7 @@ a {
 
 .footer-p {
   width: 174px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -614,7 +604,7 @@ a {
 
 .footer-text-one {
   width: 68px;
-  color: var(--menu-color);
+  color: #FFF;
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -625,7 +615,7 @@ a {
 
 .footer-p-one {
   width: 142px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -635,7 +625,7 @@ a {
 
 .footer-text-two {
   width: 119px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -645,7 +635,7 @@ a {
 
 .footer-p-two {
   width: 127px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -655,7 +645,7 @@ a {
 
 .footer-text-tree {
   width: 107px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -665,7 +655,7 @@ a {
 
 .footer-p-tree {
   width: 118px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -674,7 +664,7 @@ a {
 }
 
 .footer-p-p {
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 20px;
   font-style: normal;
   font-weight: 100;
@@ -732,7 +722,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 40px;
-  background-color: var(--menu-color);
+  background-color: #FFF;
   border-radius: 50px;
   width: 990px;
   height: 669px;
@@ -744,7 +734,7 @@ a {
 .modal-title {
   font-weight: 200;
   font-size: 48px;
-  color: var(--color-background);
+  color: #202023;
   width: 385px;
   margin-bottom: 40px;
 }
@@ -765,7 +755,7 @@ a {
 .form-input::placeholder {
   font-weight: 200;
   font-size: 24px;
-  color: var(--color-background);
+  color: #202023;
 }
 
 .form-input-two {
@@ -783,17 +773,17 @@ a {
 .form-input-two::placeholder {
   font-weight: 200;
   font-size: 24px;
-  color: var(--color-background);
+  color: #202023;
 }
 
 .bakery-btn {
   border-radius: 17px;
-  background: var(--btn-background);
+  background: #B47B48;
   width: 207px;
   height: 57px;
   margin-top: 33px;
   margin-bottom: 125px;
-  color: var(--menu-color);
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;

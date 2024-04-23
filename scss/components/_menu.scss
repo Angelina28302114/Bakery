@@ -1,7 +1,7 @@
 .menu {
     padding-top: 21px;
     padding-bottom: 73px;
-    background: var(--color-background);
+    background: $text-background-color;
   } 
   
   .menu-list {
@@ -21,7 +21,7 @@
   }
   
   .menu-box-five {
-    border: 1px solid #FFF;
+    border: 1px solid $menu-color;
     width: 328px;
   } 
   
@@ -79,7 +79,7 @@
   
   .menu-title {
     text-align: center;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 64px;
     font-style: normal;
     font-weight: 100;
@@ -93,7 +93,7 @@
   }
   
   .menu-h4 {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 25.92px;
     font-style: normal;
     font-weight: 800;
@@ -106,10 +106,10 @@
   .menu-btn {
     border-radius: 17px;
     border: none;
-    background: var(--btn-background);
+    background: $btn-background-color;
     width: 160px;
     height: 41px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 25.92px;
     font-style: normal;
     font-weight: 800;

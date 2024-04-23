@@ -1,5 +1,5 @@
 .where {
-    background: var(--color-background);
+    background-color: $text-background-color;
   } 
   
   .where-box-two {
@@ -8,7 +8,7 @@
   
   .where-title {
     width: 129px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-family: 'Italiana';
     font-size: 48px;
     font-style: normal;
@@ -21,7 +21,7 @@
   .where-text {
     width: 175px;
     height: 44px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -30,7 +30,7 @@
   }
   
   .where-p{
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -43,7 +43,7 @@
   }
   
   .where-address-p {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -58,7 +58,7 @@
   
   .where-p-one {
     width: 225px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -74,7 +74,7 @@
   
   .where-text-two {
     width: 109px;
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -90,7 +90,7 @@
   
   .where-p-two {
     width: 199px;
-    color: var(--menu-color);
+    color: $menu-color;
     text-align: center;
     font-size: 24px;
     font-style: normal;

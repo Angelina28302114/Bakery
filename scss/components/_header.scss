@@ -1,5 +1,5 @@
 .header {
-    background: var(--color-background);
+    background-color: $text-background-color;
   }
   
   .header-list {
@@ -12,7 +12,7 @@
   }
   
   .header-link {
-    color: var(--menu-color);
+    color: $menu-color;
     font-size: 24px;
     font-style: normal;
     font-weight: 200;
@@ -22,5 +22,5 @@
   
   .header-link:hover,
   .header-link:focus {
-    color: var(--btn-background);
+    color: $btn-background-color;
   }

@@ -34,24 +34,46 @@ a {
 }
 
 .container {
-  width: 1186px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1201px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .header {
   background-color: #202023;
 }
 
-.header-list {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-top: 55px;
-  padding-bottom: 71px;
+@media (min-width: 769px) {
+  .header-list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 55px;
+    padding-bottom: 71px;
+  }
 }
 
 .header-link {

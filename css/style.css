@@ -65,15 +65,13 @@ a {
   background-color: #202023;
 }
 
-@media (min-width: 769px) {
-  .header-list {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-top: 55px;
-    padding-bottom: 71px;
-  }
+.header-list {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 55px;
+  padding-bottom: 71px;
 }
 
 .header-link {

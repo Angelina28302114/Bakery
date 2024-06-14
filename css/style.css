@@ -40,7 +40,12 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
   .container {
     width: 100%;
   }
@@ -91,9 +96,13 @@ a {
 .bakery {
   padding-top: 155px;
   background: #202023;
-  background-image: url(../img/backgroundone.png);
-  background-position: center;
-  background-repeat: no-repeat;
+}
+@media (min-width: 1200px) {
+  .bakery {
+    background-image: url(../img/backgroundone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .bakery-box-one {
@@ -108,21 +117,55 @@ a {
 .bakery-title {
   color: #FFF;
   font-size: 70px;
+  width: 561px;
+  height: 170px;
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  width: 561px;
-  height: 170px;
   margin-bottom: 22px;
+}
+@media (max-width: 380px) {
+  .bakery-title {
+    width: 200px;
+    font-size: 45px;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .bakery-title {
+    width: 56px;
+    font-size: 45px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .bakery-title {
+    font-size: 56px;
+    width: 446px;
+    margin-bottom: 22px;
+  }
 }
 
 .bakery-text {
   color: #FFF;
   font-size: 21px;
+  width: 570px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 570px;
+}
+@media (max-width: 380px) {
+  .bakery-text {
+    width: 250px;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .bakery-text {
+    width: 280px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .bakery-text {
+    width: 370px;
+  }
 }
 
 .bakery-text-two {
@@ -133,10 +176,40 @@ a {
   line-height: normal;
   width: 570px;
 }
+@media (max-width: 380px) {
+  .bakery-text-two {
+    width: 250px;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  .bakery-text-two {
+    width: 280px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .bakery-text-two {
+    width: 370px;
+  }
+}
 
 .bakery-list {
   display: flex;
-  justify-content: space-between;
+}
+@media (min-width: 380px) and (max-width: 480px) {
+  .bakery-list {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  .bakery-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1201px) {
+  .bakery-list {
+    justify-content: space-between;
+  }
 }
 
 .bakery-btn {

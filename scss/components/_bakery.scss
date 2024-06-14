@@ -1,9 +1,12 @@
 .bakery {
     padding-top: 155px;
     background: $text-background-color;
-    background-image: url(../img/backgroundone.png);
+
+    @media (min-width: 1200px) {
+      background-image: url(../img/backgroundone.png);
     background-position: center;
     background-repeat: no-repeat;
+    }
   } 
   
   .bakery-box-one {
@@ -18,21 +21,49 @@
   .bakery-title {
     color: $menu-color;
     font-size: 70px;
+    width: 561px;
+    height: 170px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
-    width: 561px;
-    height: 170px;
     margin-bottom: 22px;
+
+    @media (max-width: 380px) {
+      width: 200px;
+      font-size: 45px;
+    }
+  
+    @media (min-width: 381px) and (max-width:  480px) {
+      width: 56px;
+        font-size: 45px;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+      font-size: 56px;
+    width: 446px;
+    margin-bottom: 22px;
+    }
   }
   
   .bakery-text {
     color: $menu-color;
     font-size: 21px;
+    width: 570px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    width: 570px;
+
+    @media (max-width: 380px) {
+      width: 250px;
+    }
+  
+    @media (min-width: 381px) and (max-width:  480px) {
+      width: 280px;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+      width: 370px;
+     }
   }
   
   .bakery-text-two {
@@ -42,11 +73,35 @@
     font-weight: 300;
     line-height: normal;
     width: 570px;
+
+    @media (max-width: 380px) {
+      width: 250px;
+    }
+  
+    @media (min-width: 381px) and (max-width:  480px) {
+      width: 280px;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+      width: 370px;
+     }
   }
   
   .bakery-list {
     display: flex;
-    justify-content: space-between;
+  
+    @media (min-width: 380px) and (max-width:  480px) {
+      flex-wrap: wrap;
+    }
+  
+    @media (min-width: 481px) and (max-width: 1200px) {
+      justify-content: center;
+    flex-wrap: wrap;
+    }
+  
+    @media (min-width: 1201px) {
+      justify-content: space-between;
+    }
   }
   
   .bakery-btn {

@@ -269,7 +269,6 @@ a {
   flex-wrap: wrap;
   display: flex;
 }
-
 .menu-list > .menu-item {
   max-width: 328px;
   flex-basis: calc((100% - 396px) / 2);

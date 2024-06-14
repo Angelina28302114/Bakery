@@ -25,9 +25,9 @@
     line-height: normal;
     margin-bottom: 22px;
 
-    // @media screen and (min-width: 480px) {
-    //   font-size: 58px;
-    //   }
+    @media screen and (min-width: 480px) {
+      font-size: 58px;
+      }
   }
   
   .bakery-text {
@@ -38,9 +38,9 @@
     font-weight: 300;
     line-height: normal;
 
-    // @media screen and (min-width: 480px) {
-    //   width: 470px;
-    //   }
+    @media screen and (min-width: 480px) {
+      width: 470px;
+      }
   }
   
   .bakery-text-two {
@@ -51,14 +51,19 @@
     line-height: normal;
     width: 570px;
 
-    // @media screen and (min-width: 480px) {
-    //   width: 470px;
-    //   }
+    @media screen and (min-width: 480px) {
+      width: 470px;
+      }
   }
   
   .bakery-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+      justify-content: center;
+      
+      @media screen and (min-width: 1186px) {
+        justify-content: space-between;
+      }
   }
   
   .bakery-btn {

@@ -88,7 +88,6 @@
   }
   
   .bakery-item {
-    margin-right: 120px;
     background: $item-background-color;
     background-image: url(../img/rectangle.png);
     background-size: 340px;
@@ -99,6 +98,18 @@
     width: 340px;
     height: 245px;
     margin-bottom: 36px;
+
+    @media screen and (min-width: 480px) {
+      
+      }
+      
+      @media screen and (min-width: 768px) {
+      
+      }
+      
+      @media screen and (min-width: 1186px) {
+        margin-right: 120px;
+      }
   }   
   
   .box-one {

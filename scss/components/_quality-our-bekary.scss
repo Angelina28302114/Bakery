@@ -1,81 +1,112 @@
 .quality-our-bekary {
-    background: $text-background-color;
-    position: relative;
-    background-image: url(../img/quality-our-bekary-text.png);
-    background-size: 593px;
-  } 
-  
-  .quality-our-bekary-title {
-    color: $menu-color;
-    font-family: 'Italiana';
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 90px;
-    margin-left: 466px;
-    top: -70px;
-    position: absolute;
+  background: $text-background-color;
+  position: relative;
+  background-image: url(../img/quality-our-bekary-text.png);
+  background-size: 593px;
+}
+
+.quality-our-bekary-title {
+  color: $menu-color;
+  font-family: "Italiana";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 90px;
+  top: -70px;
+  position: absolute;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 99px;
   }
-  
-  .quality-our-bekary-text {
-    background-image: linear-gradient(45deg, #000000ba,#00000082, transparent);
-  }  
-  
-  .quality-our-bekary-item-one {
+
+  @media screen and (min-width: 1186px) {
+    margin-left: 466px;
+  }
+}
+
+.quality-our-bekary-text {
+  background-image: linear-gradient(45deg, #000000ba, #00000082, transparent);
+}
+
+.quality-our-bekary-item-one {
+  margin-top: 200px;
+
+  @media screen and (min-width: 1186px) {
     margin-bottom: 306px;
     margin-top: 50px;
     margin-right: 32px;
   }
-  
-  .quality-our-bekary-item-two {
+}
+
+.quality-our-bekary-item-two {
+  @media screen and (min-width: 768px) {
+    margin-top: 150px;
+  }
+
+  @media screen and (min-width: 1186px) {
     margin-top: 150px;
     margin-bottom: 121px;
     margin-right: 25px;
   }
-  
-  .quality-our-bekary-item-tree {
+}
+
+.quality-our-bekary-item-tree {
+  @media screen and (min-width: 1186px) {
     margin-top: 190px;
     margin-bottom: 47px;
     margin-left: 15px;
   }
-  
-  .quality-our-bekary-p {
-    color: $menu-color;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+}
+
+.quality-our-bekary-p {
+  color: $menu-color;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.quality-our-bekary-list {
+  display: flex;
+
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  
-  .quality-our-bekary-list {
-    display: flex;
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1186px) {
     justify-content: center;
   }
-  
-  .quality-our-bekary-box-one {
-    background-color: rgb(96 96 96);
-    width: 291px;
-    height: 197px;
-    padding-top: 26px;
-    padding-left: 10px;
-    margin-left: 30px;
-  }
-  
-  .quality-our-bekary-box-two {
-    background-color: rgb(96 96 96);
-    width: 291px;
-    height: 197px;
-    padding-top: 26px;
-    padding-left: 10px;
-  }
-  
-  .quality-our-bekary-box-tree {
-    background-color: rgb(96 96 96);
-    width: 291px;
-    height: 197px;
-    padding-top: 26px;
-    padding-left: 10px;
-    margin-left: 25px;
-    margin-top: -10px;
-  }
+}
+
+.quality-our-bekary-box-one {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+.quality-our-bekary-box-two {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
+}
+
+.quality-our-bekary-box-tree {
+  background-color: rgb(96 96 96);
+  width: 291px;
+  height: 197px;
+  padding-top: 26px;
+  padding-left: 10px;
+  margin-left: 25px;
+  margin-top: -10px;
+}

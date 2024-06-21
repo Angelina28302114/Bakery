@@ -59,11 +59,15 @@
   .bakery-list {
     display: flex;
     flex-wrap: wrap;
+    
+
+    @media screen and (min-width: 480px) {
       justify-content: center;
-      
-      @media screen and (min-width: 1186px) {
-        justify-content: space-between;
-      }
+    }
+    
+    @media screen and (min-width: 1186px) {
+    justify-content: space-between;
+    }
   }
   
   .bakery-btn {
@@ -98,19 +102,13 @@
     width: 340px;
     height: 245px;
     margin-bottom: 36px;
-
-    @media screen and (min-width: 480px) {
-      
-      }
-      
-      @media screen and (min-width: 768px) {
-      
-      }
-      
-      @media screen and (min-width: 1186px) {
-        margin-right: 120px;
-      }
   }   
+
+  .item-two {
+      @media screen and (min-width: 768px) {
+     margin-right: 20px;
+      }
+  }
   
   .box-one {
     padding-top: 51px;

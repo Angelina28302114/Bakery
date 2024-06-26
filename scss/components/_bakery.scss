@@ -1,9 +1,17 @@
 .bakery {
     padding-top: 155px;
     background: $text-background-color;
-    background-image: url(../img/backgroundone.png);
     background-position: center;
     background-repeat: no-repeat;
+
+    @media screen and (min-width: 1200px) {
+      background-image: url(../img/backgroundone.png);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/background@2x-desktop.png);
+      }
+      }
   } 
   
   .bakery-box-one {

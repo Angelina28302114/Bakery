@@ -86,9 +86,18 @@ a {
 .bakery {
   padding-top: 155px;
   background: #202023;
-  background-image: url(../img/backgroundone.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 1200px) {
+  .bakery {
+    background-image: url(../img/backgroundone.png);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .bakery {
+    background-image: url(../../img/background@2x-desktop.png);
+  }
 }
 
 .bakery-box-one {

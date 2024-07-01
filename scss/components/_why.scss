@@ -1,9 +1,17 @@
 .why {
     background: $text-background-color;
-    background-image: url(../img/backgroundtree.png) ,url(../img/backgroundtwo.jpg);
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
     padding-bottom: 56px;
+
+    @media screen and (min-width: 1186px) {
+      background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%) ,url(../img/backgroundtwo.jpg);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%) ,url(../img/background-why@2x-desktop.png);
+      }
+      }
   } 
   
   

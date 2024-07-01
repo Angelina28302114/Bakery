@@ -4,12 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    @media screen and (min-width: 1200px) {
-      background-image: url(../img/backgroundone.png);
+    @media screen and (min-width: 1186px) {
+      background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 60.64%), url(../img/backgroundone.png);
       @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../img/background@2x-desktop.png);
+      background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 60.64%), url(../img/background@2x-desktop.png);
       }
       }
   } 

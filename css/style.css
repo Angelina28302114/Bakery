@@ -89,14 +89,14 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1186px) {
   .bakery {
-    background-image: url(../img/backgroundone.png);
+    background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 60.64%), url(../img/backgroundone.png);
   }
 }
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
   .bakery {
-    background-image: url(../../img/background@2x-desktop.png);
+    background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 60.64%), url(../img/background@2x-desktop.png);
   }
 }
 
@@ -301,7 +301,6 @@ a {
 }
 
 .menu-box-one {
-  background-image: url(../img/bread-menu.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 294px;
@@ -311,9 +310,18 @@ a {
   margin-right: 14px;
   margin-left: 20px;
 }
+@media screen and (min-width: 1186px) {
+  .menu-box-one {
+    background-image: url(../img/bread-menu.png);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .menu-box-one {
+    background-image: url(../img/menu-breads@2x-desktop.png);
+  }
+}
 
 .menu-box-two {
-  background-image: url(../img/pngeggg.png), url(../img/pngwingg.png), url(../img/klipartz.png);
   background-position: bottom 20px left 90px, bottom 0px right 20px, top -20px left 120px;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 165px, 249px, 146px;
@@ -323,9 +331,18 @@ a {
   margin-right: 26px;
   margin-top: 13px;
 }
+@media screen and (min-width: 1186px) {
+  .menu-box-two {
+    background-image: url(../img/pngeggg.png), url(../img/pngwingg.png), url(../img/klipartz.png);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .menu-box-two {
+    background-image: url(../img/pngegg-one@2x-desktop.png), url(../img/pngwing-two@2x-desktop.png), url(../img/klipartz-three@2x-desktop.png);
+  }
+}
 
 .menu-box-tree {
-  background-image: url(../img/ppngwing.png), url(../img/pngwwing.png);
   background-position: left 10px bottom 35px, center;
   background-repeat: no-repeat, no-repeat;
   background-size: 93px, 261px;
@@ -335,9 +352,18 @@ a {
   height: 260px;
   margin-left: 47px;
 }
+@media screen and (min-width: 1186px) {
+  .menu-box-tree {
+    background-image: url(../img/ppngwing.png), url(../img/pngwwing.png);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .menu-box-tree {
+    background-image: url(../img/pngwingtwo-two@2x-desktop.png), url(../img/pngwingthree-three@2x-desktop.png);
+  }
+}
 
 .menu-box-four {
-  background-image: url(../img/pngeegg.png), url(../img/pnngegg.png);
   background-position: left bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-size: 160px, 209px;
@@ -346,6 +372,16 @@ a {
   width: 261.566px;
   height: 260px;
   margin-left: 47px;
+}
+@media screen and (min-width: 1186px) {
+  .menu-box-four {
+    background-image: url(../img/pngeegg.png), url(../img/pnngegg.png);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .menu-box-four {
+    background-image: url(../img/pngeggfive-five@2x-desktop.png), url(../img/pngeggfour-four@2x-desktop.png);
+  }
 }
 
 .menu-title {
@@ -517,10 +553,19 @@ a {
 
 .why {
   background: #202023;
-  background-image: url(../img/backgroundtree.png), url(../img/backgroundtwo.jpg);
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   padding-bottom: 56px;
+}
+@media screen and (min-width: 1186px) {
+  .why {
+    background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%), url(../img/backgroundtwo.jpg);
+  }
+}
+@media screen and (min-width: 1186px) and (min-device-pixel-ratio: 2), screen and (min-width: 1186px) and (min-resolution: 192dpi), screen and (min-width: 1186px) and (min-resolution: 2dppx) {
+  .why {
+    background-image: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%), url(../img/background-why@2x-desktop.png);
+  }
 }
 
 .why-title {

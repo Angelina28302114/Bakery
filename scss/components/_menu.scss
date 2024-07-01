@@ -30,7 +30,6 @@
   } 
   
   .menu-box-one {
-    background-image: url(../img/bread-menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 294px;
@@ -39,12 +38,18 @@
     margin-top: 14px;
     margin-right: 14px;
     margin-left: 20px;
+
+    @media screen and (min-width: 1186px) {
+      background-image: url(../img/bread-menu.png);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/menu-breads@2x-desktop.png);
+      }
+      }
   } 
   
   .menu-box-two {
-    background-image: url(../img/pngeggg.png), 
-                      url(../img/pngwingg.png),
-                      url(../img/klipartz.png);
     background-position:bottom 20px left 90px, bottom 0px right 20px, top -20px left 120px;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 165px, 249px, 146px;
@@ -53,11 +58,22 @@
     margin-left: 40px;
     margin-right: 26px;
     margin-top: 13px;
+
+    @media screen and (min-width: 1186px) {
+      background-image: url(../img/pngeggg.png), 
+                        url(../img/pngwingg.png),
+                        url(../img/klipartz.png);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../img/pngegg-one@2x-desktop.png), 
+                          url(../img/pngwing-two@2x-desktop.png),
+                          url(../img/klipartz-three@2x-desktop.png);
+      }
+      }
   }
   
   .menu-box-tree {
-    background-image: url(../img/ppngwing.png),
-                      url(../img/pngwwing.png);
     background-position: left 10px bottom 35px, center;
     background-repeat: no-repeat, no-repeat;
     background-size:  93px, 261px;
@@ -66,11 +82,20 @@
     width: 261.566px;
     height: 260px; 
     margin-left: 47px;
+
+    @media screen and (min-width: 1186px) {
+      background-image: url(../img/ppngwing.png),
+                      url(../img/pngwwing.png);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../img/pngwingtwo-two@2x-desktop.png),
+                          url(../img/pngwingthree-three@2x-desktop.png);
+      }
+      }
   }
   
   .menu-box-four {
-    background-image: url(../img/pngeegg.png),
-                      url(../img/pnngegg.png);
     background-position: left bottom, center;
     background-repeat: no-repeat, no-repeat;
     background-size:  160px, 209px;
@@ -79,6 +104,17 @@
     width: 261.566px;
     height: 260px;
     margin-left: 47px;
+
+    @media screen and (min-width: 1186px) {
+      background-image: url(../img/pngeegg.png),
+                        url(../img/pnngegg.png);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../img/pngeggfive-five@2x-desktop.png),
+                          url(../img/pngeggfour-four@2x-desktop.png);
+      }
+      }
    }
   
   .menu-title {
